@@ -59,11 +59,11 @@ class _ChatDetailPageState extends State<ChatDetailPage> {
                     decoration: InputDecoration(
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(50),
-                        borderSide: BorderSide(color: Colors.white, width: 0.0),
+                        borderSide: BorderSide(color: Colors.grey, width: 0.0),
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(50),
-                        borderSide: BorderSide(color: Colors.white, width: 0.0),
+                        borderSide: BorderSide(color: Colors.grey, width: 0.0),
                       ),
                       hintText: 'Type a message',
                     ),

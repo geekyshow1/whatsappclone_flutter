@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 
 class CallModel {
   final String name;
-  final String message;
   final String time;
   final String avatar;
   final Icon callType;
 
-  CallModel({this.name, this.message, this.time, this.avatar, this.callType});
+  CallModel({this.name, this.time, this.avatar, this.callType});
   static Icon callReceived = Icon(
     Icons.call_received,
     size: 18,
